@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+/*logo*/
+.header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: orange;
+  color: #ffffff;
+}
+/*header*/
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/*header*/
+.header figure {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+/*header*/
+.header figure ul {
+  list-style-type: none;
+}
+/*header*/
+.header figure ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/*link colors*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*P Front*/
+p {
+  font-size: 16px;
+}
+/*background image*/
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/parking_header_1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+/*search-engine-optimization*/
+.float-left {
+  float: right;
+  margin-right: 25px;
+  
+}
+/*online-reputation-management */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/*Main content*/
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/*aside*/
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans' 'Gill Sans MT' 'Calibri' 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+
+/*  White words*/
+
+.Contact-Us-Side,.Person-To-Person-Parking-App-Side,.About-The-App-Side 
+{
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/*h3 tags*/
+.Person-To-Person-Parking-App-Side h3 , .About-The-App-Side h3 ,.Contact-Us-Side h3{
+  margin-bottom: 10px;
+  text-align: center;
+}
+/*aside class images*/
+.Person-To-Person-Parking-App-Side img , .About-The-App-Side img, .Contact-Us-Side img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+  
+}
+/*left aside background*/
+.Parking-App, .About-App,  .Contact-Us  {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: orange;
+  color: #ffffff;
+}
+/*Images for left aside*/
+.Parking-App img , .About-App img, .Contact-Us img  {
+  max-height: 100px;
+}
+/*words for left images*/
+.Parking-App h2 , .About-App h2 , .Contact-Us h2  {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/*made by*/
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+/*Copywright*/
+.footer h2 {
+  font-size: 20px;
+}
